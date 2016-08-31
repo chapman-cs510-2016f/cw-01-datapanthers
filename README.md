@@ -1,8 +1,8 @@
 # CS510 CW 1
 
-**Author(s):** _\<your name(s)\>_
+**Author(s):** _Simrath Ratra, Andrew Nguyen, Afnan Alqahtani_
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2016f/cw-01-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2016f/cw-01-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-cs510-2016f/cw-01-datapanthers.svg?branch=master)](https://travis-ci.org/chapman-cs510-2016f/cw-01-datapanthers)
 
 **Due date:** 2016/09/06
 
@@ -18,15 +18,19 @@ Complete the following exercises, saving your solutions in the indicated files. 
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+**We think this assignment was a good way to introduce Github and Cloudsage to us. We liked how Cloudsage produced its own terminal, so that we don't have to use Linux and we are able to clone a repository remotely. **
 
 ## Honor Pledge
 
 I pledge that all the work in this repository is my own with only the following exceptions:
+
+
 
 * Content of starter files supplied by the instructor;
 * Code borrowed from another source, documented with correct attribution in the code and summarized here.
 
 Signed,
 
-**YOURNAME**
+**Simrath Ratra, 
+Afnan Alqahtani, 
+Andrew Nguyen **
