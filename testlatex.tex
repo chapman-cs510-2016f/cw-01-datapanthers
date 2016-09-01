@@ -1,0 +1,63 @@
+\documentclass[aps,pra,notitlepage,amsmath,amssymb,letterpaper,12pt]{revtex4-1}
+\usepackage{amsthm}
+\usepackage{graphicx}
+ 
+%  Helpful commands to set up problem environments easily
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
+ 
+% --------------------------------------------------------------
+%                   Document Begins Here
+% --------------------------------------------------------------
+ 
+\begin{document}
+ 
+\title{Classwork 1}
+\author{Simrath Ratra, Andrew Nguyen, Afnan Alqahtani}
+\affiliation{CS510 Computing for Scientists}
+\date{\today}
+
+\maketitle
+
+% x.yz is the problem number
+\begin{problem}{1}
+ What does derivative f'(x) of a function f(x) mean exactly?
+\end{problem}
+ 
+\begin{solution} %Explaining what F(x)' means
+
+A derivative shows the change in the curve at any point of the curve; 
+an instantaneous rate of change of a function. 
+
+By definition, the derivative of f(x) with respect to x is the function f'(x) and is defined: 
+
+\[ f'(x) \lim_{h \to 0} = \frac{f(x+h)-f(x)}{h} \]
+
+
+
+For example, take the equation: 
+\[ f(x) = x^2\]
+
+
+\begin{figure}[h!] % h forces the figure to be placed here, in the text
+  \includegraphics[width=0.4\textwidth]{derivative_ex.jpg}  % if pdflatex is used, jpg, pdf, and png are permitted
+  \caption{Solving the derivative using our formula.}
+  \label{fig:figlabel}
+\end{figure}
+
+What we have found is that the derivative \[ f(x) = x^2\] at a point x, is the slope of the line tangent to the curve of \[ y = x^2\]. So for example, if x = 1, then the slope of our tangent line will be 2. 
+
+\begin{figure}[h!] % h forces the figure to be placed here, in the text
+  \includegraphics[width=.6\textwidth]{tangent.jpg} 
+  \caption{Tangent Line and its slope.}
+  \label{fig:figlabel}
+\end{figure}
+
+This text should be below the figure unless \LaTeX decides that a different layout works better.
+\end{solution}
+ 
+% Repeat as needed
+ 
+ 
+\end{document}
