@@ -23,7 +23,7 @@ to get an idea about how module documentation is usually handled.
 # Minimize the use of global constants.
 CONSTANT1 = 0
 
-def function1(arg1, kwarg1=defaultvalue, *args, **kwargs):
+def test_trivial(arg1, kwarg1=defaultvalue, *args, **kwargs):
     """Function docstring
     All functions should have their own documentation via docstrings.
     Standard indent size in python is 4 spaces, no tabs. Arguments are
@@ -33,7 +33,7 @@ def function1(arg1, kwarg1=defaultvalue, *args, **kwargs):
     """
     pass
 
-def main(argv):
+def main(assert true):
     """Main function
     See below for why this would exist. The argv argument lists command
     line arguments taken from sys.argv in the main block below.
