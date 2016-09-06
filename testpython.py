@@ -1,1 +1,3 @@
-test_trivial(assert true)
+test_trivial()
+    assert true
+
