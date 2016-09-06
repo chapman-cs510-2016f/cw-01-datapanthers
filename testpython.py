@@ -1,3 +1,3 @@
-test_trivial()
+def test_trivial():
     assert true
 
