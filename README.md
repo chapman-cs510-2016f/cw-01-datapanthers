@@ -20,6 +20,9 @@ Analyze in this section what you found useful about this assignment in your own 
 
 **We think this assignment was a good way to introduce Github and Cloudsage to us. We liked how Cloudsage produced its own terminal, so that we don't have to use Linux and we are able to clone a repository remotely. **
 
+_INSTRUCTOR COMMENTS_
+_Glad to hear it! Note that MarkDown syntax is very picky. Your line above did not render properly simply because there was a space between the end of your block of text and the last double-star. You can check how MarkDown is rendering by opening it within SageCloud via the click interface (you'll see a two-pane editor with rendering on the right). You can also check MarkDown directly on GitHub after you commit and push._
+
 ## Honor Pledge
 
 I pledge that all the work in this repository is my own with only the following exceptions:
