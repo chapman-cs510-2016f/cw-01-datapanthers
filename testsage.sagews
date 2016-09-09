@@ -25,6 +25,16 @@ for i in l:
 
 # In computer programming, a loop is a sequence of instructions that is continually repeated until a certain condition is reached.
 
+### INSTRUCTOR COMMENTS ###
+#
+# Don't forget to play with the fun graphical features in the menus!
+# Try, for example, the 3D plots, or random walks. Sage is quite 
+# powerful, and is a good tool to explore in your free time, even
+# though we will not use it in this course. We will focus on robust
+# coding techniques and languages, but everything you learn should
+# port over nicely to other languages.
+#
+###########################
 
 
 
